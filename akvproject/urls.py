@@ -16,7 +16,11 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path ,include
 
+
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path('',include('akvapp.urls'))
-]
+    #path('',include('akvapp.urls')),
+    #path('',include('akvap1.urls')),
+    #path('',include('akvap2.urls')),
+    path('',include('akva1.urls')),
+   ]
